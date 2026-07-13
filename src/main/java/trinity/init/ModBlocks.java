@@ -8,7 +8,6 @@ import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.client.renderer.block.statemap.StateMapperBase;
 import net.minecraft.item.*;
 import net.minecraftforge.client.model.ModelLoader;
-import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.registry.ForgeRegistries;
 import trinity.Reference;
 import trinity.blocks.*;
@@ -16,7 +15,6 @@ import trinity.config.TrinityConfig;
 import trinity.items.ShieldedContainerItem;
 import trinity.tabs.TrinityTab;
 
-@Mod.EventBusSubscriber(modid = Reference.MOD_ID)
 public class ModBlocks {
 	
 	public static Block core_u233;

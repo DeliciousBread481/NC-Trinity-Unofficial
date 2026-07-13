@@ -3,14 +3,12 @@ package trinity.init;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.model.ModelLoader;
-import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.registry.ForgeRegistries;
 import trinity.Reference;
 import trinity.items.*;
 import trinity.radiation.RadiationHandler;
 import trinity.tabs.TrinityTab;
 
-@Mod.EventBusSubscriber(modid = Reference.MOD_ID)
 public class ModItems {
 	
 	public static Item gem_witherite;
